@@ -1,0 +1,14 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import ReviewsSection from "./components/ReviewsSection";
+
+export default function App() {
+  return (
+    <div className="bg-white text-black">
+      <Navbar />
+      <Hero />
+      {/* <Cars /> */}
+      <ReviewsSection/>
+    </div>
+  );
+}
