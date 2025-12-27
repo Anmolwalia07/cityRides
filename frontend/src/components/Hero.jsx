@@ -16,36 +16,37 @@ export default function Hero() {
       <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 h-full">
 
         <h3 className="text-yellow-400 font-extrabold uppercase mt-7 mb-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-  Book Cab Now
-</h3>
+            Book Cab Now
+            </h3>
 
-<h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-+61 468 322 708
-</h1>
+            <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+            +61 468 322 708
+            </h1>
 
-<p className="mt-2 text-gray-300 text-base md:text-lg">
-  Call us anytime — 24×7 customer support
-</p>
+            <p className="mt-2 text-gray-300 text-base md:text-lg">
+            Call us anytime — 24×7 customer support
+            </p>
 
-<p className="text-gray-400 text-sm md:text-base mt-1">
-  Safe • Fast • Affordable • Professional Driver
-</p>
+            <p className="text-gray-400 text-sm md:text-base mt-1">
+            Safe • Fast • Affordable • Professional Driver
+            </p>
 
-<div className="flex gap-4 mt-4">
+            <div className="flex gap-4 mt-4">
   <a
-    href="tel:+61 468 322 708"
-    className="bg-yellow-400 text-black px-6 py-3 rounded-xl font-bold shadow-lg hover:bg-yellow-300 transition"
+    href="tel:+61468322708"
+    className="px-6 py-3 bg-yellow-400 text-black font-bold rounded-xl shadow-lg hover:bg-yellow-300 hover:scale-105 transition-all duration-200 border border-yellow-500"
   >
     Call Now
   </a>
 
   <a
-    href="https://wa.me/+61 468 322 708"
-    className="bg-green-500 text-black px-6 py-3 rounded-xl font-bold shadow-lg hover:bg-green-400 transition"
+    href="https://wa.me/61468322708"
+    className="px-6 py-3 bg-green-500 text-black font-bold rounded-xl shadow-lg hover:bg-green-400 hover:scale-105 transition-all duration-200 border border-green-600"
   >
     WhatsApp
   </a>
 </div>
+
 
 
         <img
