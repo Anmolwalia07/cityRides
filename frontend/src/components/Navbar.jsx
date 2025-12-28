@@ -11,10 +11,10 @@ export default function Navbar() {
         City<span className="text-yellow-400">Rides</span>
       </h1>
 
-      <ul className="hidden md:flex gap-8 lg:gap-10 text-lg items-center">
+      <ul className="hidden md:flex gap-10 lg:gap-12 text-lg items-center">
         <li className="hover:text-yellow-400 cursor-pointer">Home</li>
         <li className="hover:text-yellow-400 cursor-pointer">About</li>
-        <li className="hover:text-yellow-400 cursor-pointer">Contact</li>
+        <li className="hover:text-yellow-400 cursor-pointer">Cars</li>
         <li>
           <button className="bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold hover:bg-yellow-500 transition">
             Book Now
@@ -40,7 +40,7 @@ export default function Navbar() {
           <div className="flex flex-col items-center py-6 space-y-6">
             <a className="text-xl hover:text-yellow-400">Home</a>
             <a className="text-xl hover:text-yellow-400">About</a>
-            <a className="text-xl hover:text-yellow-400">Contact</a>
+            <a className="text-xl hover:text-yellow-400">Cars</a>
             <button className="bg-yellow-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-yellow-500 transition">
               Book Now
             </button>
