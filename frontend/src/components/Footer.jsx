@@ -35,9 +35,6 @@ export default function Footer() {
             <a href="#" className="hover:text-pink-400">
               <FaInstagram />
             </a>
-            <a href="#" className="hover:text-blue-400">
-              <FaFacebookF />
-            </a>
           </div>
 
           <button

@@ -40,7 +40,7 @@ export default function Hero() {
   </a>
 
   <a
-    href="https://wa.me/61468322708"
+    href="https://wa.me/+61468322708"
     className="px-6 py-3 bg-green-500 text-black font-bold rounded-xl shadow-lg hover:bg-green-400 hover:scale-105 transition-all duration-200 border border-green-600"
   >
     WhatsApp
