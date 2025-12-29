@@ -4,6 +4,7 @@ import ReviewsSection from "./components/ReviewsSection";
 import BookingSection from "./components/BestInCity";
 import Carimages from "./components/Carimages";
 import Footer from "./components/Footer";
+import CoverageMap from "./components/CoverageMap";
 
 export default function App() {
   return (
@@ -11,8 +12,8 @@ export default function App() {
       <Navbar />
       <Hero />
       <BookingSection/>
-      {/* <Cars /> */}
       <Carimages/>
+      <CoverageMap/>
       <ReviewsSection/>
       <Footer/>
     </div>

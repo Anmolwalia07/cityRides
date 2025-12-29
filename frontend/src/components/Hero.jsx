@@ -1,6 +1,7 @@
 import myImage from "../image/hero.png";
-import car from "../image/car.png";
 import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import CarSwitcher from "./CarSwitcher";
+
 
 export default function Hero() {
   return (
@@ -46,15 +47,7 @@ export default function Hero() {
         <span>WhatsApp</span>
       </a>
     </div>
-        <img
-          src={car}
-          loading="lazy"
-          className="
-            mt-15 md:mt-18 lg:mt-19
-            w-[400px]  md:w-[550px] lg:w-[700px]
-          "
-          alt="car"
-        />
+        <CarSwitcher/>
 
       </div>
 

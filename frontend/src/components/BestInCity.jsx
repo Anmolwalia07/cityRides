@@ -8,12 +8,14 @@ import { motion, useInView } from "framer-motion";
 
 export default function BookingSection() {
   const today = new Date().toISOString().split("T")[0];
+  const time = new Date().toISOString().split("T")[1].slice(0,5);
+
 
   const [form, setForm] = useState({
     name: "",
     phone: "",
     date: today,
-    time: "09:00",
+    time: time,
     start: "",
     end: "",
     vehicle: "Camry",
@@ -104,7 +106,7 @@ export default function BookingSection() {
           </button>
 
           <button
-            onClick={() => window.scrollTo({ top: document.body.scrollHeight / 2, behavior: 'smooth' })}
+            // onClick={() => window.scrollTo({ top: document.body.scrollHeight / 2, behavior: 'smooth' })}
             className="px-6 py-3 border rounded-full font-semibold hover:shadow-md transition"
           >
             Book now
@@ -195,9 +197,7 @@ export default function BookingSection() {
               className="w-1/2 border px-3 py-2 rounded-lg"
             >
               <option>Camry</option>
-              <option>Sedan</option>
-              <option>SUV</option>
-              <option>Minivan</option>
+             
             </select>
 
             <select
@@ -210,7 +210,6 @@ export default function BookingSection() {
               <option value="2">2 passengers</option>
               <option value="3">3 passengers</option>
               <option value="4">4 passengers</option>
-              <option value="5">5+ passengers</option>
             </select>
           </div>
 
